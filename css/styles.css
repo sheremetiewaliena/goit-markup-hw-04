@@ -96,7 +96,7 @@ img {
 .header-link-lini {
   position: relative;
 }
-.header-link-lini::after {
+.header-link::after {
   content: '';
   position: absolute;
   left: 0;
