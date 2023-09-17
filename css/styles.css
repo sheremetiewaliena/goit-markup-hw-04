@@ -93,6 +93,7 @@ img {
   color: var(--color-navy-blue);
   line-height: 1.5;
   position: relative;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link.active {
   color: var(--color-ocean);
@@ -115,6 +116,7 @@ img {
 .header-links {
   display: flex;
   gap: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address {
